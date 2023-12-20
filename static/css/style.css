@@ -1,0 +1,76 @@
+.card-image-size{
+    object-fit: cover;
+    height: 400px;
+}
+
+.film-image{
+    object-fit: cover;
+    height: 400px;
+    width: 300px;
+}
+
+.address-field{
+    flex:1;
+}
+.session-field{
+    flex:2;
+}
+
+.film-session{
+    border: 1px solid red;
+    border-radius: 20px;
+    height: 70px;
+    padding: 4px;
+}
+
+.film-link{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+
+.date label{
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.date #submit{
+    cursor: pointer;
+    margin: 0.25rem .125rem;
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+
+.date #date{
+    margin: 0.25rem .125rem;
+    color: #000;
+    font-weight:600;
+    line-height: 1.5;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.cinema-link{
+    color: inherit; 
+    text-decoration: none;
+    white-space: nowrap; 
+    cursor: pointer;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.cinema-text{
+    font-size: 1.2rem;
+}
